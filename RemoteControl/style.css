@@ -169,6 +169,10 @@ i.top {
 
 }
 
+.temp-speed button:hover {
+   background: var(--pink);
+}
+
 
 #custom {
 display: flex;
