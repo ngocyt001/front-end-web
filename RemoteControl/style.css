@@ -170,7 +170,16 @@ i.top {
 }
 
 .temp-speed button:hover {
-   background: var(--pink);
+   background: var(--gradient);
+   color: #fff;
+}
+
+#incTemp:hover,
+#decTemp:hover,
+#incSpeed:hover,
+#decSpeed:hover,
+#btn5 button:hover {
+    color: #fff;
 }
 
 
@@ -193,7 +202,7 @@ flex-wrap: wrap;
 }
 
 #custom input:focus {
-    border-color: var(--purple);
+    border-color: var(--pink);
 }
 
 
