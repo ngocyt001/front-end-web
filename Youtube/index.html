@@ -1,0 +1,1537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./font/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <div class="header__logo-sidebar-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="header__logo-img">
+                <i class="fa-brands fa-youtube"></i>
+                <!-- <img src="./img/youtube.jpg" alt=""> -->
+            </div>
+
+            <div class="header__logo-brand">
+                <p>YouTube</p>
+            </div>
+        </div>
+
+        <div class="header__search">
+            <div class="header__search-input-wrap">
+                
+                <input type="text" placeholder="Tìm kiếm" class="header__search-input">
+               
+                <div class="header__search-keyboard">
+                    <i class="fa-solid fa-keyboard"></i>
+                </div>
+                <!-- Info show out -->
+                <div class="header__search-history info-show-out">
+                    <ul class="header__search-history-list info-show-out-list">
+                        <li class="header__search-history-item info-show-out-item">
+                            <a href="">HTML CSS design</a>
+                            <p>Xóa</p>
+                        </li>
+
+                        <li class="header__search-history-item info-show-out-item">
+                            <a href="">What is IOT's mean?</a>
+                            <p>Xóa</p>
+                        </li>
+
+                        <li class="header__search-history-item info-show-out-item">
+                            <a href="">lớp học thầy H3</a>
+                            <p>Xóa</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header__search-icon">
+                <i class="ti-search"></i>
+            </div>
+
+            <label for="header__search-voice-checkbox" class="header__search-voice">
+                <i class="fa-solid fa-microphone"></i>
+            </label>
+
+            <input type="checkbox" name="" id="header__search-voice-checkbox" hidden class="header__search-voice-checkbox-btn">
+
+            <label for="header__search-voice-checkbox" class="header__search-voice-overlay"></label>
+
+            <div class="header__search-voice-listening">
+                <div class="header__search-voice-listening-text">
+                    <p>Đang nghe...</p>
+                </div>
+                
+
+                <div class="header__search-voice-listening-icon">
+                    <i class="fa-solid fa-microphone"></i>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="header__feature">
+            <div class="header__feature-video-wrap">
+                <label for="header__feature-video-checkbox" class="header__feature-video">
+                    <i class="fa-solid fa-video"></i>
+                </label>
+                
+                <!-- Click to Open -->
+                <input type="checkbox" name="" id="header__feature-video-checkbox" hidden class="header__feature-video-checkbox-btn">
+
+                <label for="header__feature-video-checkbox" class="header__feature-overlay"></label>
+
+                <div class="header__feature-video-tab info-show-out">
+                    <ul class="header__feature-video-tab-list info-show-out-list">
+                        <li class="header__feature-video-tab-item info-show-out-item">
+                            <i class="fa-solid fa-circle-play"></i>
+                            <a href="">Tải video lên</a>
+                        </li>
+
+                        <li class="header__feature-video-tab-item info-show-out-item">
+                            <i class="fa-solid fa-tower-broadcast"></i>
+                            <a href="">Phát trực tiếp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header__feature-options-wrap">
+                <label for="header__feature-options-checkbox" class="header__feature-options">
+                    <i class="ti-layout-grid3"></i>
+                </label>
+
+
+                <!-- Click to Open -->
+                <input type="checkbox" name="" id="header__feature-options-checkbox" hidden class="header__feature-options-checkbox-btn">
+
+                <label for="header__feature-options-checkbox" class="header__feature-overlay"></label>
+
+                <div class="header__feature-options-tab header__feature-options-tab info-show-out">
+                    <ul class="header__feature-options-tab-list info-show-out-list">
+                        <li class="header__feature-options-tab-item info-show-out-item">
+                            <i class="ti-layout-media-center-alt"></i>
+                            <a href="">YouTube TV</a>
+                        </li>
+
+                        <li class="item-devide">
+                            
+                        </li>
+
+                        <li class="header__feature-options-tab-item info-show-out-item">
+                            <i class="ti-control-play"></i>
+                            <a href="">YouTube Music</a>
+                        </li>
+
+                        <li class="header__feature-options-tab-item info-show-out-item">
+                            <i class="ti-youtube"></i>
+                            <a href="">YouTube Kids</a>
+                        </li>
+
+                        <li class="header__feature-options-tab-item-devide">
+                            
+                        </li>
+
+                        <li class="header__feature-options-tab-item info-show-out-item">
+                            <i class="fa-brands fa-youtube"></i>
+                            <a href="">YouTube dành cho Nghệ sĩ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="header__feature-noti-wrap">
+                <label for="header__feature-noti-checkbox" class="header__feature-noti">
+                    <i class="fa-regular fa-bell"></i>
+                </label>
+                
+                <!-- Click to Open -->
+
+                <input type="checkbox" name="" id="header__feature-noti-checkbox" hidden class="header__feature-noti-checkbox-btn">
+
+                <label for="header__feature-noti-checkbox" class="header__feature-overlay"></label>
+
+                <div class="header__feature-noti-tab info-show-out">
+                    <ul class="header__feature-noti-tab-list info-show-out-list">
+                        <li class="header__feature-noti-tab-item-header">
+                            <span>Thông báo</span>
+                            <i class="ti-settings"></i>
+                        </li>
+
+                        <li class="item-devide"></li>
+
+                        <div class="header__feature-noti-tab-item-container">
+                            <li class="header__feature-noti-tab-item info-show-out-item">
+                                <div class="header__feature-noti-tab-item-user">
+                                    <img src="./img/noti/logo1.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-info">
+                                    <h3>EVERTON - MAN CITY | 90 PHÚT CĂNG THẲNG, SAI LẦM ĐỊNH ĐOẠT TRẬN ĐẤU | NGOẠI HẠNG ANH 2021/2022
+                                    </h3>
+    
+                                    <span>1 ngày trước</span>
+    
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-img">
+                                    <img src="/img/noti/content2.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-more">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </li>
+
+                            <li class="header__feature-noti-tab-item info-show-out-item">
+                                <div class="header__feature-noti-tab-item-user">
+                                    <img src="./img/noti/logo1.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-info">
+                                    <h3>KPlus Sports đã tải lên: LIVERPOOL - LEEDS | SALAH - MANE SIÊU HẠNG, VAN DIJK - MATIP RỰC RỠ | NGOẠI HẠNG ANH 21/22
+                                    </h3>
+    
+                                    <span>1 ngày trước</span>
+    
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-img">
+                                    <img src="/img/noti/content1.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-more">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </li>
+
+                            <li class="header__feature-noti-tab-item info-show-out-item">
+                                <div class="header__feature-noti-tab-item-user">
+                                    <img src="./img/noti/logo2.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-info">
+                                    <h3>Đánh giá chi tiết Matebook 14 chưa tới 22 triệu: Màn 2K rất đẹp, kim loại cao cấp
+                                    </h3>
+    
+                                    <span>4 ngày trước</span>
+    
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-img">
+                                    <img src="/img/noti/content4.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-more">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </li>
+
+                            <li class="header__feature-noti-tab-item info-show-out-item">
+                                <div class="header__feature-noti-tab-item-user">
+                                    <img src="./img/noti/logo2.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-info">
+                                    <h3>Tại sao Xiaomi không còn rẻ như trước?
+                                    </h3>
+    
+                                    <span>5 ngày trước</span>
+    
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-img">
+                                    <img src="/img/noti/content3.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-more">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </li>
+
+                            <li class="header__feature-noti-tab-item info-show-out-item">
+                                <div class="header__feature-noti-tab-item-user">
+                                    <img src="./img/noti/logo3.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-info">
+                                    <h3>Honda Civic RS 2022: 870 triệu thế này thì vô địch phân khúc?
+                                    </h3>
+    
+                                    <span>7 ngày trước</span>
+    
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-img">
+                                    <img src="/img/noti/content5.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-more">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </li>
+
+                            <li class="header__feature-noti-tab-item info-show-out-item">
+                                <div class="header__feature-noti-tab-item-user">
+                                    <img src="./img/noti/logo1.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-info">
+                                    <h3>MAN CITY - TOTTENHAM: KHÓ TIN VỚI KỊCH BẢN, "SAO HỤT" MAN CITY GIEO SẦU | NGOẠI HẠNG ANH 21/22
+                                    </h3>
+    
+                                    <span>8 ngày trước</span>
+    
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-img">
+                                    <img src="/img/noti/content6.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-more">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </li>
+
+                            <li class="header__feature-noti-tab-item info-show-out-item">
+                                <div class="header__feature-noti-tab-item-user">
+                                    <img src="./img/noti/logo3.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-info">
+                                    <h3>Toyota Veloz dự kiến từ 650 triệu sắp về Việt Nam: Xpander, XL7 gặp đối thủ thực sự!
+                                    </h3>
+    
+                                    <span>2 tuần trước</span>
+    
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-img">
+                                    <img src="/img/noti/content7.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-more">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </li>
+
+                            <li class="header__feature-noti-tab-item info-show-out-item">
+                                <div class="header__feature-noti-tab-item-user">
+                                    <img src="./img/noti/logo1.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-info">
+                                    <h3>HIỆP 1 ẤN TƯỢNG CỦA MANCHESTER UNITED | ĐIỂM NHẤN ĐẾN TỪ JADON SANCHO | NGOẠI HẠNG ANH 21/22
+                                    </h3>
+    
+                                    <span>3 tuần trước</span>
+    
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-img">
+                                    <img src="/img/noti/content8.jpg" alt="">
+                                </div>
+    
+                                <div class="header__feature-noti-tab-item-more">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </li>
+                        </div>
+
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="header__feature-user-wrap">
+                <label for="header__feature-user-checkbox" class="header__feature-user">
+                    <img src="./img/user.png" alt="">
+                </label>
+                
+                <input type="checkbox" name="" id="header__feature-user-checkbox" hidden class="header__feature-user-checkbox-btn">
+
+                <label for="header__feature-user-checkbox" class="header__feature-overlay"></label>
+
+                <div class="header__feature-user-tab info-show-out">
+                    <ul class="header__feature-user-tab-list info-show-out-list">
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            <img src="./img/user.png" alt="">
+                            <div class="header__feature-user-tab-name">
+                                <a href="">Tran Thanh Ngoc</a>
+                                <span>Quản lý tài khoản Google của bạn</span>
+                            </div>
+                            
+                        </li>
+
+                        <li class="item-devide"></li>
+    
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            <i class="ti-user"></i>
+                            <a href="">Kênh của bạn</a>
+                        </li>
+
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            <i class="ti-money"></i>
+                            <a href="">Giao dịch mua và gói thành viên</a>
+                        </li>
+
+                        
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            <i class="ti-youtube"></i>
+                            <a href="">Youtube Studio</a>
+                        </li>
+
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            <div class="header__feature-user-tab-item-inside">
+                                <div class="header__feature-user-tab-item-info">
+                                    <i class="ti-layers"></i>
+                                    <a href="">Chuyển đổi tài khoản</a>
+                                </div>
+
+                                <i class="ti-angle-right"></i>
+                            </div>
+                        </li>
+
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            <i class="ti-shift-right"></i>
+                            <a href="">Đăng xuất</a>
+                        </li>
+                        
+
+                        <li class="item-devide"></li>
+
+
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            
+                            <div class="header__feature-user-tab-item-inside">
+                                <div class="header__feature-user-tab-item-info">
+                                    <i class="ti-palette"></i>
+                                    <a href="">Giao diện: Giao diện thiết bị</a>
+                                </div>
+                                
+                                <i class="ti-angle-right"></i>
+                            </div>
+                        </li>
+
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            
+                            <div class="header__feature-user-tab-item-inside">
+                                <div class="header__feature-user-tab-item-info">
+                                    <i class="ti-info-alt"></i>
+                                    <a href="">Ngôn ngữ: Tiếng việt</a>
+                                </div>
+                                
+                                <i class="ti-angle-right"></i>
+                            </div>
+                        </li>
+
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            
+                            <div class="header__feature-user-tab-item-inside">
+                                <div class="header__feature-user-tab-item-info">
+                                    <i class="ti-world"></i>
+                                    <a href="">Địa điểm: Việt Nam</a>
+                                </div>
+                                
+                                <i class="ti-angle-right"></i>
+                            </div>
+                        </li>
+
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            <i class="ti-settings"></i>
+                            <a href="">Cài đặt</a>
+                        </li>
+
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            <i class="ti-id-badge"></i>
+                            <a href="">Dữ liệu của bạn trên YouTube</a>
+                        </li>
+
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            <i class="ti-help-alt"></i>
+                            <a href="">Trợ giúp</a>
+                        </li>
+
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            <i class="ti-face-smile"></i>
+                            <a href="">Gửi phản hồi</a>
+                        </li>
+
+
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            <i class="fa-solid fa-keyboard"></i>
+                            <a href="">Phím tắt</a>
+                        </li>
+
+                        <li class="item-devide"></li>
+
+                        <li class="header__feature-user-tab-item info-show-out-item">
+                            <div class="header__feature-user-tab-item-inside">
+                                <div class="header__feature-user-tab-item-info">
+                                    <a href="">Chế độ hạn chế: Đã tắt</a>
+                                </div>
+                                
+                                <i class="ti-angle-right"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </header>
+
+    <div class="container">
+        
+        <div class="grid">
+            <div class="row no-gutters ">
+                <div class="col">
+                    <div class="sidebar">
+                        <ul class="sidebar__list">
+                            <li class="sidebar__list-item">
+                                <i class="ti-home"></i>
+
+                                <p>Trang chủ</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-direction-alt"></i>
+
+                                <p>Khám phá</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-mobile"></i>
+
+                                <p>Shorts</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-layout-slider-alt"></i>
+
+                                <p>Kênh đăng ký</p>
+                            </li>
+
+                            <li class="item-devide">
+                            
+                            </li>
+    
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-layers"></i>
+
+                                <p>Thư viện</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-time"></i>
+
+                                <p>Video đã xem</p>
+                            </li>
+
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-control-play"></i>
+
+                                <p>Video của bạn</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-timer"></i>
+
+                                <p>Xem sau</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-heart"></i>
+
+                                <p>Video đã thích</p>
+                            </li>
+
+                            <li class="item-devide">
+                            
+                            </li>
+
+                            <li class="sidebar__list-item-header">
+                                <p>KÊNH ĐĂNG KÝ</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <img src="img/noti/logo1.jpg" alt="">
+
+                                <p>Kplus Sports</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <img src="img/noti/logo2.jpg" alt="">
+
+                                <p>Vật Vờ Studio</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <img src="img/noti/logo3.jpg" alt="">
+
+                                <p>Mê Xe</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-angle-down"></i>
+
+                                <p>Hiển thị thêm <span>31</span> mục</p>
+                            </li>
+
+                            <li class="item-devide">
+                            
+                            </li>
+
+                            <li class="sidebar__list-item-header">
+                                <p>DỊCH VỤ KHÁC CỦA YOUTUBE</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-game"></i>
+
+                                <p>Trò chơi</p>
+                            </li>
+
+                        
+                            <li class="sidebar__list-item">
+                                <i class="ti-signal"></i>
+
+                                <p>Phát trực tiếp</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-cup"></i>
+
+                                <p>Thể thao</p>
+                            </li>
+
+                            <li class="item-devide">
+                            
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-settings"></i>
+
+                                <p>Cài đặt</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-flag-alt-2"></i>
+
+                                <p>Lịch sử báo cáo</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-help-alt"></i>
+
+                                <p>Trợ giúp</p>
+                            </li>
+
+                            <li class="sidebar__list-item">
+                                <i class="ti-info-alt"></i>
+
+                                <p>Gửi phản hồi</p>
+                            </li>
+
+                            <li class="item-devide">
+                            
+                            </li>
+
+                            <li class="sidebar__list-item-link">
+                                <p>Giới thiệu Báo chí Bản quyền Liên hệ với chúng tôi Người sáng tạoQuảng cáo Nhà phát triển</p>
+                            </li>
+
+                            <li class="sidebar__list-item-link">
+                                <p>Điều khoản Quyền riêng tư Chính sách và an toàn Cách YouTube hoạt động Thử các tính năng mới</p>
+                            </li>
+
+                            <li class="sidebar__list-item-link">
+                                <span>© 2022 Google LLC</span>
+                            </li>
+
+
+                            
+    
+    
+
+                            
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col l-10">
+                    <div class="content">
+                        <div class="content__header">
+                            <div class="content__header-list">
+                                <div class="content__header-item content__header-item-active">
+                                    <p>Tất cả</p>
+                                </div>
+
+                                <div class="content__header-item">
+                                    <p>Âm nhạc</p>
+                                </div>
+
+                                <div class="content__header-item">
+                                    <p>Bóng đá</p>
+                                </div>
+
+                                <div class="content__header-item">
+                                    <p>Danh sách kết hợp</p>
+                                </div>
+
+                                <div class="content__header-item">
+                                    <p>Trực tiếp</p>
+                                </div>
+
+                                <div class="content__header-item">
+                                    <p>hài kịch tình huống</p>
+                                </div>
+
+                                <div class="content__header-item">
+                                    <p>Chương trình nấu ăn</p>
+                                </div>
+
+                                <div class="content__header-item">
+                                    <p>Phim hoạt hình</p>
+                                </div>
+
+                                <div class="content__header-item">
+                                    <p>Trò chơi</p>
+                                </div>
+
+                                <div class="content__header-item">
+                                    <p>Đề xuất mới</p>
+                                </div>
+
+                                <!-- <div class="content__header-item">
+                                    <p>Đề xuất mới</p>
+                                </div> -->
+
+                                <!-- <div class="content__header-item">
+                                    <p>trò chơi</p>
+                                </div>
+
+                                <div class="content__header-item">
+                                    <p>trò chơi</p>
+                                </div>
+
+                                <div class="content__header-item">
+                                    <p>trò chơi</p>
+                                </div> -->
+                            </div>
+                        </div>
+
+                        <div class="content__video">
+                            <div class="row sm-gutter">
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img1.jpg" alt="">
+
+                                            <div class="content__video-item-time">4:09</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg1.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>Anh Đâu Ngờ ( Blue Remix ) - Nhật Phong | Nhạc EDM Chill Gây Nghiện Hot Tik Tok 2022</h3>
+                                                <p>Blue Music</p>
+                                                <span>272 N Lượt xem  <i class="fa-solid fa-circle"></i> 32 phút trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img2.jpg" alt="">
+
+                                            <div class="content__video-item-time">4:09</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg2.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>Xe Hàn sau 14 năm, 16 vạn km sửa mất bao nhiêu tiền? Mạnh Linh gặp lại Hyundai i30</h3>
+                                                <p>Mê Xe</p>
+                                                <span>2.5 N Lượt xem  <i class="fa-solid fa-circle"></i> 32 phút trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img3.jpg" alt="">
+
+                                            <div class="content__video-item-time">4:09</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg3.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>Đánh giá Galaxy Note 10+ sau 2 năm: 7,9 triệu cho SIÊU PHẨM một thời, liệu còn đáng mua?</h3>
+                                                <p>Vật Vờ Studio</p>
+                                                <span>295 N Lượt xem  <i class="fa-solid fa-circle"></i> 2 ngày trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img4.jpg" alt="">
+
+                                            <div class="content__video-item-time">4:09</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg4.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>Chạy Về Khóc Với Anh Remix 💘 EDM Tik Tok Hay Nhất 2022 - Top 15 Bản Nhạc Remix Nghe Nhiều Nhất 2022</h3>
+                                                <p>HOA HỒNG DẠI MUSIC</p>
+                                                <span>78 N Lượt xem  <i class="fa-solid fa-circle"></i> 56 phút trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+                                
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img5.jpg" alt="">
+
+                                            <div class="content__video-item-time">4:09</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg5.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>THẰNG HẦU - NHẬT PHONG | HƯƠNG LY COVER</h3>
+                                                <p>Nguyễn Hương Ly Official</p>
+                                                <span>1.3 M Lượt xem  <i class="fa-solid fa-circle"></i> 3 ngày trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img6.jpg" alt="">
+
+                                            <div class="content__video-item-time">4:09</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg4.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>♬ CHẠNH LÒNG THƯƠNG CÔ 2 - HUY VẠC ( HHD REMIX ) | 1 HOUR VERSION OFFICIAL</h3>
+                                                <p>HOA HỒNG DẠI MUSIC TRENDING</p>
+                                                <span>60 N Lượt xem  <i class="fa-solid fa-circle"></i> 5 ngày trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img7.jpg" alt="">
+
+                                            <div class="content__video-item-time">20:19</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg7.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>MESSI LIỆU CÓ TOẢ SÁNG KHI TRỞ LẠI BERNABEU? | Q&A - HỎI VÀ ĐÁP CÙNG BLV ANH QUÂN</h3>
+                                                <p>BLV Anh Quân</p>
+                                                <span>55 N Lượt xem  <i class="fa-solid fa-circle"></i> 46 phút trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img8.jpg" alt="">
+
+                                            <div class="content__video-item-time">4:55</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg8.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>Giải mã thư mời sự kiện Apple 8/3 có iPhone SE 3 giá 300 đô?</h3>
+                                                <p>Vinh Xô</p>
+                                                <span>26 N Lượt xem  <i class="fa-solid fa-circle"></i> 1 tuần trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img9.jpg" alt="">
+
+                                            <div class="content__video-item-time">4:09</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg2.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>Đi 3 đời Hyundai; lỡ hẹn với CR-V, 2 khách mời nói gì về Santafe 2021?</h3>
+                                                <p>Mê Xe</p>
+                                                <span>50 N Lượt xem  <i class="fa-solid fa-circle"></i> 2 tiếng trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img10.jpg" alt="">
+
+                                            <div class="content__video-item-time">4:09</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg10.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>Audi A6, quyến rũ một cách bình thản nhưng người chạy 5-Series sẽ thích | GearUp Flash Review</h3>
+                                                <p>GearUpVN</p>
+                                                <span>48 N Lượt xem  <i class="fa-solid fa-circle"></i> 1 tuần trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img11.jpg" alt="">
+
+                                            <div class="content__video-item-time">5:09</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg11.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>Thiết kế mọi thứ với Canva - Hướng dẫn cho người mới bắt đầu</h3>
+                                                <p>Thảo Ngân</p>
+                                                <span>181 N Lượt xem  <i class="fa-solid fa-circle"></i> 4 tháng trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img12.jpg" alt="">
+
+                                            <div class="content__video-item-time">9:40</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg12.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>#TỔNGĐÀIVV: Súp Heo giải đáp cho fan Vật Vờ</h3>
+                                                <p>Vật Vờ Studio</p>
+                                                <span>8 N Lượt xem  <i class="fa-solid fa-circle"></i> 1 ngày trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+                                <div class="col l-12">
+                                    <div class="content__video-news">
+                                        <div class="content__video-news-header">
+                                            <p>Tin tức về COVID-19</p>
+                                            <i class="ti-close"></i>
+                                        </div>
+
+                                        <div class="content__video-news-header-body row sm-gutters">
+                                            <div class="col l-2-5 m-3 c-6">
+                                                <div class="content__video-item">
+                                                    <div class="content__video-item-img">
+                                                        <img src="./img/content/img13.jpg" alt="">
+            
+                                                        <div class="content__video-item-time">10:40</div>
+                                                        
+                                                        <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                                    </div>
+                
+                                                    <div class="content__video-item-info">
+                                                        <div class="content__video-item-info-avt">
+                                                            <img src="./img/content/lg13.jpg" alt="">
+                                                        </div>
+                
+                                                        <div class="content__video-item-info-desc">
+                                                            <h3>Vạch Kit Test COVID-19 Lúc Mờ Lúc Đậm Có Ý Nghĩa Gì?</h3>
+                                                            <p>Video AloBacsi</p>
+                                                            <span>88 N Lượt xem  <i class="fa-solid fa-circle"></i> 2 ngày trước</span>
+                                                        </div>
+                
+                                                        <div class="content__video-item-options">
+                                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                        </div>
+                                                    </div>
+            
+                                                </div>
+                
+                                                
+                                            </div>
+
+                                            <div class="col l-2-5 m-3 c-6">
+                                                <div class="content__video-item">
+                                                    <div class="content__video-item-img">
+                                                        <img src="./img/content/img14.jpg" alt="">
+            
+                                                        <div class="content__video-item-time">8:33</div>
+                                                        
+                                                        <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                                    </div>
+                
+                                                    <div class="content__video-item-info">
+                                                        <div class="content__video-item-info-avt">
+                                                            <img src="./img/content/lg14.jpg" alt="">
+                                                        </div>
+                
+                                                        <div class="content__video-item-info-desc">
+                                                            <h3>Đường phố Hà Nội vắng vẻ những ngày số ca mắc Covid-19 liên tục tăng cao | VTC Now</h3>
+                                                            <p>VTC NOW</p>
+                                                            <span>39 N Lượt xem  <i class="fa-solid fa-circle"></i> 3 ngày trước</span>
+                                                        </div>
+                
+                                                        <div class="content__video-item-options">
+                                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                        </div>
+                                                    </div>
+            
+                                                </div>
+                
+                                                
+                                            </div>
+
+                                            <div class="col l-2-5 m-3 c-6">
+                                                <div class="content__video-item">
+                                                    <div class="content__video-item-img">
+                                                        <img src="./img/content/img15.jpg" alt="">
+            
+                                                        <div class="content__video-item-time">11:05</div>
+                                                        
+                                                        <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                                    </div>
+                
+                                                    <div class="content__video-item-info">
+                                                        <div class="content__video-item-info-avt">
+                                                            <img src="./img/content/lg15.jpg" alt="">
+                                                        </div>
+                
+                                                        <div class="content__video-item-info-desc">
+                                                            <h3>Loạn thuốc điều trị COVID-19 | VTV24</h3>
+                                                            <p>VTV24</p>
+                                                            <span>33 N Lượt xem  <i class="fa-solid fa-circle"></i> 1 ngày trước</span>
+                                                        </div>
+                
+                                                        <div class="content__video-item-options">
+                                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                        </div>
+                                                    </div>
+            
+                                                </div>
+                
+                                                
+                                            </div>
+
+                                            <div class="col l-2-5 m-3 c-6">
+                                                <div class="content__video-item">
+                                                    <div class="content__video-item-img">
+                                                        <img src="./img/content/img16.jpg" alt="">
+            
+                                                        <div class="content__video-item-time">2:34</div>
+                                                        
+                                                        <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                                    </div>
+                
+                                                    <div class="content__video-item-info">
+                                                        <div class="content__video-item-info-avt">
+                                                            <img src="./img/content/lg15.jpg" alt="">
+                                                        </div>
+                
+                                                        <div class="content__video-item-info-desc">
+                                                            <h3>Trục lợi từ việc bán thuốc điều trị COVID-19 không rõ nguồn gốc | VTV24</h3>
+                                                            <p>VTV24</p>
+                                                            <span>17 N Lượt xem  <i class="fa-solid fa-circle"></i> 4 ngày trước</span>
+                                                        </div>
+                
+                                                        <div class="content__video-item-options">
+                                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                        </div>
+                                                    </div>
+            
+                                                </div>
+                
+                                                
+                                            </div>
+
+                                        </div>
+
+                                        <div class="content__video-news-footer">
+                                            <i class="ti-angle-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img17.jpg" alt="">
+
+                                            <div class="content__video-item-time">8:40</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg17.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>Domain là gì? Bạn đã thật sự hiểu về domain?</h3>
+                                                <p>F8 Official</p>
+                                                <span>17 N Lượt xem  <i class="fa-solid fa-circle"></i> 4 tháng trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img18.jpg" alt="">
+
+                                            <div class="content__video-item-time">9:40</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg4.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>Top 30 Nhạc Remix Nghe Nhiều 💘 Chạy Về Khóc Với Anh, Dây Tơ Kết Đôi, Gieo Quẻ, Thê Lương Remix 2022</h3>
+                                                <p>HOA HỒNG DẠI MUSIC</p>
+                                                <span>188 N Lượt xem  <i class="fa-solid fa-circle"></i> 1 tháng trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img19.jpg" alt="">
+
+                                            <div class="content__video-item-time">19:40</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg7.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>DERBY MANCHESTER CĂNG THẲNG, LIVERPOOL BỨT TỐC MẠNH MẼ | NHẬN ĐỊNH NGOẠI HẠNG ANH VÒNG 28</h3>
+                                                <p>BLV Anh Quân</p>
+                                                <span>28 N Lượt xem  <i class="fa-solid fa-circle"></i> 1 ngày trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img20.jpg" alt="">
+
+                                            <div class="content__video-item-time">13:23</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg20.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>MÌNH ĂN NHÀ HÀNG CỦA ĐẦU BẾP…</h3>
+                                                <p>Jenny Huynh</p>
+                                                <span>2.7 M Lượt xem  <i class="fa-solid fa-circle"></i> 1 tháng trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img21.jpg" alt="">
+
+                                            <div class="content__video-item-time">8:40</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg2.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>Hyundai Elantra 1.6 Turbo: Xe phổ thông MẠNH NHẤT có gì hay hơn Civic, Focus?</h3>
+                                                <p>Mê Xe</p>
+                                                <span>18 N Lượt xem  <i class="fa-solid fa-circle"></i> 4 tháng trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img22.jpg" alt="">
+
+                                            <div class="content__video-item-time">7:40</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg3.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>So sánh Xiaomi 12 Pro và iPhone 13 Pro Max: Quá bất ngờ về kết quả!</h3>
+                                                <p>Vật Vờ Studio</p>
+                                                <span>351 N Lượt xem  <i class="fa-solid fa-circle"></i> 1 tháng trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img23.jpg" alt="">
+
+                                            <div class="content__video-item-time">1:19:40</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg4.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>SEE TÌNH - HOÀNG THÙY LINH ( VISCONC REMIX ) | 1 HOUR VERSION OFFICIAL</h3>
+                                                <p>HOA HỒNG DẠI MUSIC</p>
+                                                <span>2.8 N Lượt xem  <i class="fa-solid fa-circle"></i> 1 ngày trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+
+                                <div class="col l-2-5 m-3 c-6">
+                                    <div class="content__video-item">
+                                        <div class="content__video-item-img">
+                                            <img src="./img/content/img24.jpg" alt="">
+
+                                            <div class="content__video-item-time">9:05</div>
+                                            
+                                            <div class="content__video-item-noti">Tiếp tục di chuột để phát</div>
+                                        </div>
+    
+                                        <div class="content__video-item-info">
+                                            <div class="content__video-item-info-avt">
+                                                <img src="./img/content/lg24.jpg" alt="">
+                                            </div>
+    
+                                            <div class="content__video-item-info-desc">
+                                                <h3>VLOG ĐẶC BIỆT: CÙNG ANH EM SCHANNEL ĂN MỪNG 1 TRIỆU SUB!!!</h3>
+                                                <p>Duy Thẩm</p>
+                                                <span>96 N Lượt xem  <i class="fa-solid fa-circle"></i> 1 tháng trước</span>
+                                            </div>
+    
+                                            <div class="content__video-item-options">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                    
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+        
+    </div>
+
+    
+</body>
+</html>
